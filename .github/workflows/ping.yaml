@@ -12,6 +12,7 @@ jobs:
     env:
       PING_URLS: |
         https://double-h-affairs-backend.onrender.com/health
+        https://double-h-affairs-backend-sidiq.onrender.com/health
 
     steps:
       - name: Set up Python
